@@ -17,21 +17,31 @@ This repository contains a Differentially Expressed Genes (DEG) analysis report 
    - Correction Method: Benjamini & Hochberg (FDR).
 3. **Reproducibility:** Consistency verified across top-ranked genes and multiple analysis iterations.
 
-### Analysis Results
+## Analysis Results
 
-#### Volcano Plot
-![Volcano Plot](Screenshot%202026-02-15%20at%2021.39.20.png)
-*Figure 1: Distribution of up-regulated (red) and down-regulated (blue) genes.*
+### 1. Sample Metadata & Grouping
+<p align="center">
+  <img src="Screenshot%202026-02-15%20at%2019.57.17.png" width="800">
+  <br>
+  <em><b>Figure 1:</b> Overview of sample metadata and group definitions (Healthy vs Infected).</em>
+</p>
 
-### Top Differentially Expressed Genes
-| Gene Symbol | log2FoldChange | adj.P.Val | Description |
-|-------------|----------------|-----------|-------------|
-| **ATF5** | -2.387         | 4.80e-51  | Down-regulated |
-| **PI3** | -3.621         | 2.21e-48  | Down-regulated |
-| **TRIM31** | 1.42           | 8.61e-48  | Up-regulated   |
+The following are the visualization results and key statistical data from the differential expression analysis of the GSE41586 dataset:
+### 2. Volcano Plot Visualization
+<p align="center">
+  <img src="Screenshot%202026-02-15%20at%2021.39.20.png" width="600">
+  <br>
+  <em><b>Figure 2:</b> Volcano Plot showing significant up-regulated (red) and down-regulated (blue) genes in HT29 cells.</em>
+</p>
+
+### 3. Top Differentially Expressed Genes (DEGs)
+Based on statistical analysis, here are the top three genes with the highest significance levels:
+
+| Gene Symbol | log2FoldChange | adj.P.Val | Biological Description |
+| :--- | :---: | :---: | :--- |
+| **ATF5** | -2.387 | 4.80e-51 | Activating transcription factor 5 (Down-regulated) |
+| **PI3** | -3.621 | 2.21e-48 | Peptidase inhibitor 3 (Down-regulated) |
+| **TRIM31** | 1.42 | 8.61e-48 | Tripartite motif containing 31 (Up-regulated) |
 
 ## Conclusion
 The infection leads to a significant suppression of cellular survival genes such as **ATF5** and protease inhibitors like **PI3**, while triggering the up-regulation of immune-related genes like **TRIM31**. This indicates massive transcriptomic remodeling in the host cell.
-
----
-*Assignment for Bioinformatics Course / IPSF Global Research Lab*
