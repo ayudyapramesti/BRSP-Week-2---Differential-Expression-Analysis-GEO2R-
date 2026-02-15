@@ -23,7 +23,7 @@ This repository contains a Differentially Expressed Genes (DEG) analysis report 
 <p align="center">
   <img src="overview-defines-group" width="800">
   <br>
-  <em><b>Figure 1:</b> Overview of sample metadata and group definitions (Healthy vs Infected).</em>
+  <b>Figure 1:</b> Overview of sample metadata and group definitions (Healthy vs Infected).
 </p>
 
 The following are the visualization results and key statistical data from the differential expression analysis of the GSE41586 dataset:
@@ -31,7 +31,7 @@ The following are the visualization results and key statistical data from the di
 <p align="center">
   <img src="visualization-volcanoplot" width="600">
   <br>
-  <em><b>Figure 2:</b> Volcano Plot showing significant up-regulated (red) and down-regulated (blue) genes in HT29 cells.</em>
+  <b>Figure 2:</b> Volcano Plot showing significant up-regulated (red) and down-regulated (blue) genes in HT29 cells.
 </p>
 
 ### 3. Top Differentially Expressed Genes (DEGs)
