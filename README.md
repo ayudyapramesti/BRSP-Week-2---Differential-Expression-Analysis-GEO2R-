@@ -17,10 +17,10 @@ This repository contains a Differentially Expressed Genes (DEG) analysis report 
    - Correction Method: Benjamini & Hochberg (FDR).
 3. **Reproducibility:** Consistency verified across top-ranked genes and multiple analysis iterations.
 
-## Analysis Results
+### Analysis Results
 
-### Volcano Plot
-![Volcano Plot](images/volcano_plot.png)
+#### Volcano Plot
+![Volcano Plot](Screenshot%202026-02-15%20at%2021.39.20.png)
 *Figure 1: Distribution of up-regulated (red) and down-regulated (blue) genes.*
 
 ### Top Differentially Expressed Genes
